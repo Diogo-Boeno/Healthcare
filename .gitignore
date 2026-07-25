@@ -1,11 +1,12 @@
-/Packages/
-**/Packages/
+# Roblox build artifacts
 *.rbxl
 *.rbxlx
-*.rbxl.lock
-*.rbxlx.lock
-sourcemap.json
+*.rbxm
+*.rbxmx
+
+# OS / editor
 .DS_Store
 Thumbs.db
-node_modules/
-.vscode/
+
+# local tooling
+.claude/
