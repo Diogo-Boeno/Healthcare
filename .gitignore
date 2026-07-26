@@ -1,12 +1,6 @@
-# Roblox build artifacts
-*.rbxl
-*.rbxlx
-*.rbxm
-*.rbxmx
-
-# OS / editor
-.DS_Store
-Thumbs.db
-
-# local tooling
-.claude/
+# This repo publishes ONLY the handoff/ folder.
+# Everything else stays on disk but is kept out of git (so the auto-commit hook
+# can't add it either). To version the full project, use a different repo/remote.
+/*
+!/.gitignore
+!/handoff/
